@@ -6,7 +6,7 @@ require('dotenv').config();
 const PORT = process.env.PORT || 4000;
 
 app.use(cors({
-    origin: 'http://localhost:3000',  // Specify the allowed origin
+    origin: 'https://build-innovation-gamma.vercel.app',  // Specify the allowed origin
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
 }));
